@@ -7,6 +7,7 @@ use App\Ingredient;
 use App\Allergen;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use Spatie\Activitylog\Traits\LogsActivity;
 
 /**
  * App\Plate
@@ -20,11 +21,12 @@ use Illuminate\Database\Eloquent\SoftDeletes;
  */
 class Plate extends Model
 {
-    use SoftDeletes;
+    use SoftDeletes, LogsActivity;
 
     const PLATE_AVALAIBLE = 1;
     const PLATE_NOT_AVALAIBLE = 0;
     protected $date = ['deleted_at'];
+    protected static $logFillable = true;
 
     protected $fillable = [
         'name',

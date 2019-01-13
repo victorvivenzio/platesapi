@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5c27b6c-b0c1-4f54-8ad4-2c2e4c9cda44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env.testing" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/platesapi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/platesapi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_01_13_231349_create_activity_log_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Ingredient/IngredientAllergenController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Ingredient/IngredientAllergenController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Ingredient/IngredientController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Ingredient/IngredientController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_01_13_211319_allergen_ingredient_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_01_13_211319_create_allergen_ingredient_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_01_13_211349_ingredient_plate_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_01_13_211349_create_ingredient_plate_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Plate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Plate.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="306">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
                 <element signature="e#7#20#0#PHP" expanded="true" />
               </folding>
@@ -49,13 +40,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_13_231349_create_activity_log_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+              <folding>
+                <element signature="e#7#45#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Plate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="323">
+              <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
               <folding>
                 <element signature="e#23#40#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="85">
+                <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="69" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -138,7 +153,6 @@
         <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/app/Allergen.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Allergen/AllergenPlateController.php" />
-        <option value="$PROJECT_DIR$/app/Plate.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_01_13_211319_allergen_ingredient_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Ingredient/IngredientController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Ingredient/IngredientAllergenController.php" />
@@ -146,11 +160,13 @@
         <option value="$PROJECT_DIR$/.env.testing" />
         <option value="$PROJECT_DIR$/database/migrations/2019_01_13_211319_create_allergen_ingredient_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_01_13_211349_create_ingredient_plate_table.php" />
-        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/tests/Unit/PlateTest.php" />
         <option value="$PROJECT_DIR$/tests/Unit/AllergenTest.php" />
         <option value="$PROJECT_DIR$/tests/Unit/CategoryTest.php" />
         <option value="$PROJECT_DIR$/tests/Unit/IngredientTest.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_01_13_231349_create_activity_log_table.php" />
+        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/app/Plate.php" />
       </list>
     </option>
   </component>
@@ -275,6 +291,11 @@
               <item name="platesapi" type="b2602c69:ProjectViewProjectNode" />
               <item name="platesapi" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="platesapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="platesapi" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -294,6 +315,7 @@
       <recent name="C:\laragon\www\platesapi\app\Http\Controllers\Category" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\platesapi\database\migrations" />
       <recent name="C:\laragon\www\platesapi" />
       <recent name="C:\laragon\www\platesapi\database\factories" />
     </key>
@@ -327,15 +349,16 @@
       <option name="presentableId" value="Default" />
       <updated>1547145687073</updated>
       <workItem from="1547145688371" duration="17231000" />
-      <workItem from="1547382898091" duration="29841000" />
+      <workItem from="1547382898091" duration="32921000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47072000" />
+    <option name="totallyTimeSpent" value="50152000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2751678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -364,23 +387,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Traits/ApiResponser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-          <folding>
-            <element signature="e#23#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Category/CategoryPlateController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -712,16 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Plate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding>
-            <element signature="e#23#40#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_13_191701_create_allergens_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -770,13 +766,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_13_231349_create_activity_log_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <element signature="e#7#45#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="306">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="e#7#20#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+          <folding>
+            <element signature="e#23#40#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="85">
+            <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="69" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
