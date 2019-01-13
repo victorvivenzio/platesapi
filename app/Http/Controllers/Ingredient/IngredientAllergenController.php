@@ -32,6 +32,7 @@ class IngredientAllergenController extends ApiController
     {
         $ingredient->allergens()->syncWithoutDetaching($allergen->id);
         $allergens = $ingredient->allergens;
+
         return $this->showAll($allergens);
     }
 

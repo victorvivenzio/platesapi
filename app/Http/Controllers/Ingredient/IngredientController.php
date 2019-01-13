@@ -70,7 +70,6 @@ class IngredientController extends ApiController
             return $this->errorsResponse('modify one field at least', 422);
         }
         $ingredient->save();
-
         return $this->showOne($ingredient);
     }
 
