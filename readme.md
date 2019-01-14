@@ -1,5 +1,10 @@
 ## Plates API
 
+API desarrollada en Laravel, principalmente por la forma sencilla y potente para la gestión de rutas que posee, facilita 
+de una manera gigantesca esta labor, intente realizar la API de la forma mas sencilla que pude, dividiendo los endpoints
+en multiples controladores para manejar las operaciones de las relaciones y hacer esto de una forma mas entendible.
+
+
 Iniciar instalando las dependencias con composer:
 
 `composer install`
